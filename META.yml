@@ -1,0 +1,26 @@
+---
+abstract: "[One line description of module's purpose here]"
+author:
+  - 'Torbjørn Lindahl <torbjorn.lindahl@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DateTimeX-ymdhms
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  DateTime: 1.01
+  Test::Most: 0.25
+  Test::Perl::Critic: 1.02
+  Test::Pod: 1.45
+  Test::Pod::Coverage: 1.08
+version: v0.0.1
