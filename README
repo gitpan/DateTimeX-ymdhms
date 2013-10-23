@@ -1,4 +1,4 @@
-DateTimeX-ymdhms version 0.0.1
+DateTimeX-ymdhms version 0.0.2
 
 Adds the methods ymdhms and ymdhm to DateTime objects so that you can
 now easily do $dt->ymdhms to produce "date time"

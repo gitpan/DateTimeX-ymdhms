@@ -1,33 +1,22 @@
 {
-   "abstract" : "[One line description of module's purpose here]",
+   "abstract" : "more easily output date and time of your DateTime.",
    "author" : [
-      "Torbjørn Lindahl <torbjorn.lindahl@gmail.com>"
+      "TorbjÃ¸rn Lindahl <torbjorn.lindahl@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.120921",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
    "name" : "DateTimeX-ymdhms",
-   "no_index" : {
-      "directory" : [
-         "t",
-         "inc"
-      ]
-   },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
@@ -40,6 +29,17 @@
          }
       }
    },
+   "provides" : {
+      "DateTimeX::ymdhms" : {
+         "file" : "lib/DateTimeX/ymdhms.pm",
+         "version" : "v0.0.2"
+      }
+   },
    "release_status" : "stable",
-   "version" : "v0.0.1"
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v0.0.2"
 }
